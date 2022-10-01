@@ -1,0 +1,82 @@
+/*
+================================
+Font Family
+================================
+*/
+
+@font-face {
+    font-family: 'Outfit';
+    src: url("../fonts/Outfit-VariableFont_wght.ttf");
+}
+
+/*
+====================
+====================
+*/
+
+
+
+/*
+================================
+CSS Reset
+================================
+*/
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+/*
+====================
+====================
+*/
+
+
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+    width: 320px;
+    height: 497px;
+    background-color: white;
+    padding: 16px;
+    border-radius: 20px;
+    box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.0477);
+    text-align: center;
+}
+
+.container img {
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+}
+
+h3 {
+    font-size: 1.375em;
+    color: rgba(31, 49, 79, 1);
+    font-weight: 700;
+    line-height: 27.72px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+p {
+    font-size: 15px;
+    line-height: 18.9px;
+    color: rgba(125, 136, 158, 1);
+    margin-left: 16px;
+    margin-right: 16px;
+}
