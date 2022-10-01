@@ -1,0 +1,41 @@
+/*
+================================
+Font Family
+================================
+*/
+
+@font-face {
+    font-family: 'Outfit';
+    src: url("../fonts/Outfit-VariableFont_wght.ttf");
+}
+
+/*
+====================
+====================
+*/
+
+
+
+/*
+================================
+CSS Reset
+================================
+*/
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+/*
+====================
+====================
+*/
+
+
+
