@@ -37,7 +37,6 @@ Default(Mobile workflow) css
 
 .text-soft {
     color: rgba(139, 172, 217, 1);
-    font-weight: 300;
     letter-spacing: 1px;
 }
 
@@ -58,14 +57,29 @@ body {
     border-radius: 15px;
 }
 
-.card img {
-    display: block;
+.img-container {
+    position: relative;
     width: 278px;
     height: 278px;
     border-radius: 8px;
 }
 
-.card h3 {
+.nft {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.eye {
+    display: none;
+    position: absolute;
+    bottom: 127px;
+    left: 127px;
+}
+
+
+.top-container h3 {
     font-size: 1.375rem;
     color: rgba(255, 255, 255, 1);
     margin: 24px 1px 0 0;
@@ -73,7 +87,7 @@ body {
     letter-spacing: 1px;
 }
 
-.card p {
+.top-container p {
     font-size: 1.125rem;
     line-height: 1.625rem;
     margin: 12px 1px 16px 0;
@@ -108,13 +122,70 @@ body {
     height: 33px;
     float: left;
     margin-right: 16px;
+    border: 1px solid #FFFFFF;
+    border-radius: 100%;
 }
 
 .bottom-container p {
     vertical-align: sub;
     font-size: 15px;
     font-weight: 400;
+    padding: 7px;
 }
 .bottom-container span {
+    margin-left: 3px;
     color: rgba(255, 255, 255, 1);
+}
+
+@media only screen and (min-width: 820px) {
+    .card {
+        width: 350px;
+        height: 596px;
+    }
+
+    .img-container {
+        width: 302px;
+        height: 302px;   
+    }
+
+    .top-container h3 {
+        margin-right: 0;
+    }
+
+    .top-container p {
+        margin: 16px 0 24px 0;
+    }
+
+    .middle-container {
+        padding-bottom: 24px;
+        margin-bottom: ;
+    }
+
+    .middle-container span {
+        font-size: 16px;
+    }
+
+    .hover:hover {
+        color: rgba(0, 255, 248, 1);
+        cursor: pointer;
+    }
+
+    .img-container:hover .nft {
+        opacity: 0.5;
+    }
+
+    .img-container:hover {
+        background-color: rgba(0, 255, 248, 1);
+    }
+
+    .img-container:hover .eye {
+        display: block;
+    }
+    
+
+    
+    
+
+
+
 }
