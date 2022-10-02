@@ -1,0 +1,120 @@
+/*
+==========================
+Font Family
+==========================
+*/
+@font-face {
+    font-family: "Outfit";
+    src: url("../fonts/Outfit-VariableFont_wght.ttf");
+}
+
+
+/*
+=========================
+Reset css
+=========================
+*/
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+
+html {
+    font-size: 16px;
+}
+
+
+
+/*
+=========================
+Default(Mobile workflow) css
+=========================
+*/
+
+.text-soft {
+    color: rgba(139, 172, 217, 1);
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+body {
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.card {
+    width: 327px;
+    height: 543px;
+    padding: 24px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+}
+
+.card img {
+    display: block;
+    width: 278px;
+    height: 278px;
+    border-radius: 8px;
+}
+
+.card h3 {
+    font-size: 1.375rem;
+    color: rgba(255, 255, 255, 1);
+    margin: 24px 1px 0 0;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.card p {
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    margin: 12px 1px 16px 0;
+    
+}
+
+.middle-container {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid hsl(217, 54%, 11%);
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+}
+
+.middle-container span {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.middle-container svg {
+    margin-right: 7.7px;
+    vertical-align: sub;
+}
+
+.currency {
+    color: hsl(178, 100%, 50%);
+}
+
+
+.bottom-container img {
+    width: 33px;
+    height: 33px;
+    float: left;
+    margin-right: 16px;
+}
+
+.bottom-container p {
+    vertical-align: sub;
+    font-size: 15px;
+    font-weight: 400;
+}
+.bottom-container span {
+    color: rgba(255, 255, 255, 1);
+}
